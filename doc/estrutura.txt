@@ -1,0 +1,11 @@
+CREATE [criar]
+INSERT INTO tabela (campo1, campo2, ...) VALUES ('valor1', 'valor2', '...')
+
+READ [ler]
+SELECT * FROM tabela
+
+UPDATE [editar]
+UPDATE tabela SET campo1='valor1'
+, 'valor2', ... WHERE id=id_valor
+DELETE [EXCLUIR]
+DELETE FROM tabela WHERE id=id_valor
